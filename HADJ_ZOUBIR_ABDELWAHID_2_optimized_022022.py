@@ -81,10 +81,10 @@ for i in list_items:
     cost = cost + list_action[i]["price"]
     cost = round(cost, 2)
 
-
-print(f"Benefice total = {benef}")
-print(f"Coût total = {cost}")
-print("\n\n")
+print("\n")
+print(f"Le benefice total des investissement est de : {benef} euros")
+print(f"Le coût total des investissements est de : = {cost} euros")
+print("\n")
 
 print("Les actions selectionnées :\n")
 for action in list_action_select:

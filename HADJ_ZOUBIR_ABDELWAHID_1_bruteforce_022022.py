@@ -66,5 +66,20 @@ new_list_combinaisons_sorted = sorted(new_list_combinaisons, key=lambda combinai
 new_list_combinaisons_sorted.reverse()
 
 
-print(f"\n\n\n{new_list_combinaisons_sorted[0]}")
-print(len(new_list_combinaisons_sorted))
+new_combi = new_list_combinaisons_sorted[0]["combinaisons"]
+benefice_total = 0
+cout_total = 0
+
+print("\n")
+print("Les actions sélectionnées sont :")
+for action in new_combi:
+    action["benefice_euro"] = round(action["benefice_euro"], 2)
+    benefice_total = benefice_total + action["benefice_euro"]
+    cout_total = cout_total + action["cout"]
+    print(action)
+
+benefice_total = round(benefice_total, 2)
+print("\n")
+print(f"Le coût total des investissements est de : {cout_total} euros")
+print(f"Le benefice total des investissement est de : {benefice_total} euros")
+print("\n\n")
