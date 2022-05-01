@@ -18,10 +18,15 @@ Entrez la commande suivante :
 
 *Copiez et coller toutes les source dans ce répertoire "knapsack_project"*
 liste des sources:
+
 **HADJ_ZOUBIR_ABDELWAHID_1_bruteforce_022022.py**
+
 **HADJ_ZOUBIR_ABDELWAHID_2_optimized_022022.py**
+
 **dataset1_Python_P7.csv**
+
 **dataset2_Python_P7.csv**
+
 **requirements.txt**
 
 
@@ -83,6 +88,6 @@ Entrez la commande suivante :
 
 > **python HADJ_ZOUBIR_ABDELWAHID_2_optimized_022022.py dataset1_Python_P7.csv**
 
-### **Note :** Tous les résultats sont affiché sur la console du terminal
+### **Note :** Tous les résultats sont affichés sur la console du terminal
 
 
