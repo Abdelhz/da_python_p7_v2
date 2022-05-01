@@ -57,6 +57,7 @@ Entrez la commande suivante :
 > **pip install -r requirements.txt**
 
 # Lancerment et execution du programme :
+
 Pour ce projet nous avons deux programme à executer séparemment :
 ### Programme brute force :
 
@@ -64,16 +65,22 @@ Entrez la commande suivante :
 > **python HADJ_ZOUBIR_ABDELWAHID_1_bruteforce_022022.py**
 
 ### Programme optimisé :
-Pour cette partie nous avons deux ensembles test de données.
+Pour cette partie nous avons deux ensembles test de données :
+
 **dataset1_Python_P7.csv**
+
 **dataset2_Python_P7.csv**
 
-Pour tester le programme sur le 1er ensemble de donnée
+Pour tester le programme sur le 1er ensemble de donnée.
+
 Entrez la commande suivante :
+
 > **python HADJ_ZOUBIR_ABDELWAHID_2_optimized_022022.py dataset1_Python_P7.csv**
 
-Pour tester le programme sur le 2eme ensemble de donnée
+Pour tester le programme sur le 2eme ensemble de donnée.
+
 Entrez la commande suivante :
+
 > **python HADJ_ZOUBIR_ABDELWAHID_2_optimized_022022.py dataset1_Python_P7.csv**
 
 ### **Note :** Tous les résultats sont affiché sur la console du terminal
