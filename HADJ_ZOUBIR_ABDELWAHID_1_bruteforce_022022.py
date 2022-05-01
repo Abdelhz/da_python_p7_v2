@@ -1,35 +1,4 @@
 import itertools
-import math
-def csv_reader(file_name):
-    for row in open(file_name, "r"):
-        yield row
-
-
-csv_gen = csv_reader("techcrunch.csv")
-row_count = 0
-print(csv_gen)
-for row in csv_gen:
-    row_count += 1
-
-print(f"Row count is {row_count}")
-
-"""
-n = 20
-def calcombi(n, k):
-    rescombi = (math.factorial(n))/(math.factorial(k))*(math.factorial(n-k))
-    return rescombi
-
-allcombi = [calcombi(n, k) for k in range(2, n)]
-print(allcombi)
-
-allcombinaison = sum(allcombi) + n + 1
-print(f"Toutes les combinaisons : {allcombinaison}")
-"""
-# action_1 = {"nom_action" : "action_1", "cout" :20 , "benefice_euro" :5 }
-# action_2 = {"nom_action" : "action_2", "cout" :30 , "benefice_euro" :10 }
-# action_3 = {"nom_action" : "action_3", "cout" :50 , "benefice_euro" :15 }
-# action_4 = {"nom_action" : "action_4", "cout" :70 , "benefice_euro" :20 }
-# list_action = [action_1, action_2, action_3, action_4]
 
 action_1 = {"nom_action" : "action_1", "cout" :20 , "benefice" :5 }
 action_2 = {"nom_action" : "action_2", "cout" :30 , "benefice" :10 }
