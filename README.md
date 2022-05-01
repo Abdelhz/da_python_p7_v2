@@ -9,6 +9,7 @@ Nous devons tout d'abord créer un environnement virtuel python.
 
 **NOTE :** Nous utilisons *python 3.9*
 
+
 *Création d'un répertoir pour le projet :*
 
 On ouvre d'abord un terminal (Si sous windows utiliser Git bash ou similaire pour les commandes unix)
@@ -17,7 +18,9 @@ Entrez la commande suivante :
 
 > **mkdir knapsack_project**
 
+
 *Copiez et coller toutes les source dans ce répertoire "knapsack_project"*
+
 liste des sources:
 
 **HADJ_ZOUBIR_ABDELWAHID_1_bruteforce_022022.py**
@@ -31,6 +34,7 @@ liste des sources:
 **requirements.txt**
 
 
+
 Création de l'env avec *venv*
 
 Entrez les commandes suivantes une par une :
@@ -40,6 +44,7 @@ Entrez les commandes suivantes une par une :
 > **python -m venv env_knapsack_project**
 
 A ce moment l'env est créé et il nous suffit de l'activer.
+
 
 # Activer l'env :
 
@@ -53,6 +58,7 @@ Entrez les commandes suivantes une par une :
 
 L'env est maintenant activé.
 
+
 # Installation des bibliothèques requises dans l'env :
 
 *Revenir au répertoire du projet, "knapsack_project"*
@@ -65,6 +71,7 @@ Entrez la commande suivante :
 
 > **pip install -r requirements.txt**
 
+
 # Lancerment et execution du programme :
 
 Pour ce projet nous avons deux programme à executer séparemment :
@@ -75,9 +82,10 @@ Entrez la commande suivante :
 
 > **python HADJ_ZOUBIR_ABDELWAHID_1_bruteforce_022022.py**
 
+
 ### Programme optimisé :
 
-Pour cette partie nous avons deux ensembles test de données :
+Pour cette partie nous avons deux ensembles de données test :
 
 **dataset1_Python_P7.csv**
 
@@ -96,5 +104,3 @@ Entrez la commande suivante :
 > **python HADJ_ZOUBIR_ABDELWAHID_2_optimized_022022.py dataset1_Python_P7.csv**
 
 ### **Note :** Tous les résultats sont affichés sur la console du terminal
-
-
