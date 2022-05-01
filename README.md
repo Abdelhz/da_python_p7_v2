@@ -3,7 +3,7 @@
 
 # Déscription : les logiciels "Programme brute force" et "Programme optimisé" écris en Python, sont deux versions d'une application pour l'achat d'actions en bourse
 
-# Création d'un environnement virtuel (env) pour le programme d'échecs  :
+# Création d'un environnement virtuel (env) pour le programme KNAPSACK  :
 
 Nous devons tout d'abord créer un environnement virtuel python.
 
@@ -12,6 +12,7 @@ Nous devons tout d'abord créer un environnement virtuel python.
 *Création d'un répertoir pour le projet :*
 
 On ouvre d'abord un terminal (Si sous windows utiliser Git bash ou similaire pour les commandes unix)
+
 Entrez la commande suivante :
 
 > **mkdir knapsack_project**
@@ -31,6 +32,7 @@ liste des sources:
 
 
 Création de l'env avec *venv*
+
 Entrez les commandes suivantes une par une :
 
 > **cd knapsack_project**
@@ -41,7 +43,8 @@ A ce moment l'env est créé et il nous suffit de l'activer.
 
 # Activer l'env :
 
-Il faut pour cela naviguer dans le dossier *scrips* ou appelé "*bin*" sous linux, contenu dans le répertoir env_programme echecs;
+Il faut pour cela naviguer dans le dossier *scrips* ou appelé "*bin*" sous linux, contenu dans le répertoir **env_knapsack_project**
+
 Entrez les commandes suivantes une par une :
 
 > **cd env_knapsack_project/scripts**
@@ -55,6 +58,7 @@ L'env est maintenant activé.
 *Revenir au répertoire du projet, "knapsack_project"*
 
 Entrez la commande suivante :
+
 > **cd ../..**
 
 *Puis :*
@@ -64,12 +68,15 @@ Entrez la commande suivante :
 # Lancerment et execution du programme :
 
 Pour ce projet nous avons deux programme à executer séparemment :
+
 ### Programme brute force :
 
 Entrez la commande suivante :
+
 > **python HADJ_ZOUBIR_ABDELWAHID_1_bruteforce_022022.py**
 
 ### Programme optimisé :
+
 Pour cette partie nous avons deux ensembles test de données :
 
 **dataset1_Python_P7.csv**
